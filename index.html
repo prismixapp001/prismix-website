@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PRISMIX — Discover, explore and learn more about LGBTQ+ movies from around the world.">
+<title>PRISMIX — LGBTQ+ Movie Information</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#07070c;
+  color:#fff;
+  line-height:1.6;
+}
+header{
+  position:sticky;top:0;z-index:10;
+  background:rgba(7,7,12,.92);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.nav{
+  max-width:1100px;margin:auto;padding:16px 22px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.logo{
+  font-size:28px;font-weight:900;letter-spacing:1px;
+  background:linear-gradient(90deg,#ff3b81,#ff8a3d,#ffd447,#42df9b,#35c8ff,#9b6cff);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.nav a{color:#cfcbd6;text-decoration:none;margin-left:22px;font-size:14px}
+.hero{
+  max-width:1100px;margin:auto;padding:90px 22px 70px;
+  text-align:center;
+}
+.badge{
+  display:inline-block;padding:8px 15px;border-radius:30px;
+  background:rgba(180,80,255,.12);border:1px solid rgba(180,80,255,.3);
+  color:#d9b5ff;font-size:13px;margin-bottom:22px;
+}
+h1{font-size:clamp(42px,8vw,76px);line-height:1.05;margin-bottom:20px}
+.gradient{
+  background:linear-gradient(90deg,#ff4b8b,#ff9b45,#ffe05a,#4be3a0,#43c9ff,#a66cff);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero p{
+  max-width:700px;margin:0 auto 30px;color:#aaa6b2;font-size:18px;
+}
+.button{
+  display:inline-block;text-decoration:none;color:#fff;font-weight:700;
+  padding:13px 22px;border-radius:14px;
+  background:linear-gradient(135deg,#a64dff,#ed3f9b);
+  box-shadow:0 10px 30px rgba(166,77,255,.22);
+}
+section{max-width:1100px;margin:auto;padding:55px 22px}
+.title{text-align:center;font-size:32px;margin-bottom:12px}
+.subtitle{text-align:center;color:#9995a1;margin-bottom:35px}
+.cards{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
+}
+.card{
+  background:#101017;border:1px solid rgba(255,255,255,.07);
+  border-radius:20px;padding:25px;
+}
+.icon{font-size:30px;margin-bottom:12px}
+.card h3{margin-bottom:8px}
+.card p{color:#9995a1;font-size:14px}
+.about{
+  background:#101017;border:1px solid rgba(255,255,255,.07);
+  border-radius:24px;padding:32px;
+}
+.about p{color:#aaa6b2}
+footer{
+  margin-top:40px;padding:35px 22px;text-align:center;
+  border-top:1px solid rgba(255,255,255,.08);color:#77737e;font-size:13px;
+}
+@media(max-width:700px){
+  .nav a{display:none}
+  .cards{grid-template-columns:1fr}
+  .hero{padding-top:65px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <div class="logo">PRISMIX</div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <span class="badge">LGBTQ+ MOVIE INFORMATION</span>
+    <h1>Discover <span class="gradient">LGBTQ+ Cinema</span></h1>
+    <p>
+      PRISMIX is a dedicated movie information platform created to help
+      audiences discover, explore and learn more about LGBTQ+ films from
+      around the world.
+    </p>
+    <a class="button" href="#features">Explore PRISMIX</a>
+  </section>
+
+  <section id="features">
+    <h2 class="title">Everything about the movie</h2>
+    <p class="subtitle">Explore meaningful LGBTQ+ cinema in one place.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🎬</div>
+        <h3>Movie Details</h3>
+        <p>Explore titles, descriptions, genres, ratings, duration and other movie information.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🌈</div>
+        <h3>LGBTQ+ Cinema</h3>
+        <p>Discover LGBTQ+ movies from different stories, communities and parts of the world.</p>
+      </div>
+      <div class="card">
+        <div class="icon">▶</div>
+        <h3>Viewing Information</h3>
+        <p>Find trailers and available viewing information for movies listed on PRISMIX.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about">
+      <h2 class="title">About PRISMIX</h2>
+      <p>
+        PRISMIX is a dedicated LGBTQ+ movie information platform. It brings
+        movie details, genres, ratings, descriptions, trailers and viewing
+        information together to make it easier for audiences to find and
+        explore LGBTQ+ cinema in one place.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="title">Contact</h2>
+    <p class="subtitle">
+      For questions or support, contact PRISMIX at
+      <a href="mailto:prismix.app@gmail.com" style="color:#c98cff;text-decoration:none">
+        prismix.app@gmail.com
+      </a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  © 2026 PRISMIX. All rights reserved.
+</footer>
+
+</body>
+</html>
