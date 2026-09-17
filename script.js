@@ -1,0 +1,1 @@
+function showDownloadNote(){alert("The PRISMIX Uptodown download link will be connected here after the app is published.");return false;}
